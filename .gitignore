@@ -1,0 +1,11 @@
+# .gitignore
+
+# Ambientes virtuais e caches
+mybudget_venv/
+__pycache__/
+
+# Arquivos gerados durante a execução do script ou dependências
+*.pyc
+*.pyo
+*.pyd
+.env

@@ -1,9 +1,13 @@
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning, module="pandas")
+
 from dash import html, dcc
 import dash
 from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 import pandas as pd
 import plotly.express as px
+
 
 # import from folders
 from app import *
