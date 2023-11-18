@@ -25,7 +25,7 @@ from globals import *
 
 # ========= Layout ========= #
 layout = dbc.Card([
-                html.H1("Finanças", className="text-primary"),
+                html.H1("MyBudget", className="text-primary"),
                 html.P("By Lilinha", className="text-info"),
                 html.Hr(),
 
